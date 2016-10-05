@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>AstroMeet | Home</title>
+    <title>AstroMeet | About</title>
     <!-- Design and CSS -->
 		<link type="image/png" rel="shortcut icon" href="images/favicon.png" />
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
@@ -18,9 +18,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/efd75aa873.js"></script>
 	</head>
-	
-	<body>
-	  <!-- Navigation bar -->
+
+  <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -47,15 +47,27 @@
         </div>
       </div>
     </nav>
-	  
-	  <!-- Homepage -->
-	  <div id="index">
-      <div class="index-wrapper">
-        <h1 class="index-title">
-           AstroMeet
-        </h1>
-        <div class="index-button">
-          <a class="btn btn-primary" href="login.html" role="button">Log in</a> <a class="btn btn-default" href="signup.html" role="button">Sign up</a>
+    
+    <!-- Login -->
+    <div id="auth">
+      <div class="container">
+        <div class="auth-wrapper">
+          <div class="auth-desc">
+            <div class="col-md-4 col-md-offset-4">
+      				<div class="form-group">
+      					<label for="usr">Email Address:</label>
+      					<input type="email" class="form-control" name="email" placeholder="Enter your email address">
+      				</div>
+      				<div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter your password">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+      				<a class="btn btn-primary" href="index.html" role="button">Submit</a>
+      			</div>
+          </div>
         </div>
       </div>
     </div>
@@ -64,7 +76,7 @@
     <footer id="footer">
       <small>Copyright &copy; 2016 AstroMeet.</small>
     </footer>
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
